@@ -1,7 +1,6 @@
 ---
 permalink: /
-layout: default
-title: "About me"
+
 
 author_profile: true
 redirect_from: 
