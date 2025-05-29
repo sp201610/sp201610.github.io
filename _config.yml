@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "ch-CN"
 site_theme               : "default"
-title                    : "Your Name / Site Title"
+title                    : "sp201610的主页"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -23,13 +23,14 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
+  name             : "吕星澎"
+  pronouns         : # example: "he/him"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "浙江杭州"
+  employer         : "Zhejiang University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "sp201610@foxmail.com" 
+  bio              : ""
 
   # Academic websites
   academia         : # URL
