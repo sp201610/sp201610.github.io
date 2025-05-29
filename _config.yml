@@ -24,7 +24,7 @@ author:
   # Biographic information
   avatar           : "profile_picture.png"
   name             : "吕星澎"
-  pronouns         : "he/him"  
+  pronouns         : # "he/him"  
   bio              : "sp201610@foxmail.com" 
   location         : "浙江杭州"
   employer         : "Zhejiang University"
