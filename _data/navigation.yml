@@ -9,7 +9,7 @@
 
 main:
   - title: "主页"
-    url: /about/
+    url: /
 
   - title: "项目经历"
     url: /Projects/
