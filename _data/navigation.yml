@@ -12,7 +12,7 @@ main:
     url: /about/   
     
   - title: "项目经历"
-    url: /publications/
+    url: /projects/
 
   - title: "简历"
     url: /CV/    
