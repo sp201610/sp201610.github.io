@@ -1,10 +1,9 @@
 ---
 permalink: /
-title: "About me"
+title: "简历"
 author_profile: true
 redirect_from: 
-  - /about/
-  - /about.html
+  - /cv/
 ---
 
 ## 你好！我是吕星澎
