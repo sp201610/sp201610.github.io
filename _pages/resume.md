@@ -1,5 +1,5 @@
 ---
-permalink: /resunme/
+permalink: /resume/
 title: "简历"
 author_profile: true
 redirect_from: 
