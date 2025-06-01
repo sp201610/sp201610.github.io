@@ -1,9 +1,4 @@
 ---
-permalink: /projects/SRTP.md
-title: "SRTP"
-author_profile: true
-
----
 
 ## 一、项目主要内容简介
 
