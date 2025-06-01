@@ -157,6 +157,7 @@ analytics:
 include:
   - .htaccess
   - _pages
+  - projects
   - files
 exclude:
   - "*.sublime-project"
@@ -220,7 +221,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _projects
+  # projects
   - scope:
       path: ""
       type: projects
