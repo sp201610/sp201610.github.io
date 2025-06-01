@@ -1,9 +1,9 @@
 ---
 permalink: /
-title: "简历"
+title: "项目经历"
 author_profile: true
 redirect_from: 
-  - /CV/
+  - /projects/
 ---
 
 ## 你好！我是吕星澎
