@@ -1,32 +1,50 @@
 ---
-layout: archive
-title: "项目经历"
-permalink: /projects/
+permalink: /
+title: "简历"
 author_profile: true
+redirect_from: 
+  - /CV/
 ---
 
-{% include base_path %}
+## 你好！我是吕星澎
 
-这是一个网站列表，标记了主页中各个页面。
+欢迎访问我的个人主页
 
-<h2>Pages</h2>
-{% for post in site.pages %}
-  {% include archive-single.html %}
-{% endfor %}
+---
 
-{% capture written_label %}'None'{% endcapture %}
+## 基本信息
 
-{% for collection in site.collections %}
-{% unless collection.output == false or collection.label == "posts" %}
-  {% capture label %}{{ collection.label }}{% endcapture %}
-  {% if label != written_label %}
-  <h2>{{ label }}</h2>
-  {% capture written_label %}{{ label }}{% endcapture %}
-  {% endif %}
-{% endunless %}
-{% for post in collection.docs %}
-  {% unless collection.output == false or collection.label == "posts" %}
-  {% include archive-single.html %}
-  {% endunless %}
-{% endfor %}
-{% endfor %}
+- **姓名**：吕星澎
+- **学校与院系**：浙江大学 计算机科学与技术学院  
+- **专业与年级**：信息安全 大三  
+- **居住地**：杭州  
+- **邮箱**：sp201610@foxmail.com 
+
+---
+
+## 学习背景
+
+### 已学习
+
+- **计算机相关课程**：
+  - C程序设计专题
+  - 数据结构基础
+  - 高级数据结构与算法分析
+  - 面向对象程序设计
+  - C#项目设计
+  - 汇编语言
+  - 操作系统
+  - 计算机组成
+  - 计算机体系结构
+  - 计算机网络
+- **安全相关课程**：
+  - 信息安全原理与数学基础
+  - 数据安全与隐私保护
+  - 密码学
+
+### 技能
+
+- **熟练**：C/C++, C#, Ps, Pr, Unity
+- **略了解**：HTML/CSS, Python, Figma, Ae
+
+---
