@@ -1,5 +1,5 @@
 ---
-
+permalink: /projects/SRTP
 title: "面向视频配乐推荐的可视化交互方法"
 author_profile: true
 
