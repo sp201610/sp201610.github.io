@@ -14,8 +14,14 @@ main:
   - title: "项目经历"
     url: /projects/
 
-  - title: "简历"
-    url: /resume/    
+  - title: "作品介绍"
+    url: /works/
+
+  - title: "游戏经历"
+    url: /games/    
+
+  - title: "个人demo"
+    url: /demo/    
     
   - title: "Guide"
     url: /markdown/
