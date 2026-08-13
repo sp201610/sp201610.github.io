@@ -1,9 +1,9 @@
 ---
-permalink: /resume/
-title: "简历"
+permalink: /works/
+title: "作品介绍"
 author_profile: true
 redirect_from: 
-  - /cv/
+  - /works/
 ---
 
 ## 你好！我是吕星澎
