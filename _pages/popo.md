@@ -92,7 +92,7 @@ author_profile: true
 
 ## 4. 需求归纳
 
-![demand](./demand.png)
+![demand](./images/demand.png)
 
 ### 功能性需求
 
@@ -116,7 +116,7 @@ author_profile: true
 | 跨平台 | 先发布iOS/Android App，后续考虑Web版查看。 |
 | 可扩展性 | 空间树数据结构应支持未来添加AR指引、多人协作、智能家居联动（如提醒放置在特定位置的信标）。 |
 
-![cognitive](./cognitive.png)
+![cognitive](./images/cognitive.png)
 
 ---
 
@@ -215,7 +215,7 @@ AI的一切操作都透明可视：
 
 ## 9. 产品效果图展示
 
-![Logo](./light.png)
-![Logo-暗](./dark.png)
+![Logo](./images/light.png)
+![Logo-暗](./images/dark.png)
 
-![界面](./inter.png)
+![界面](./images/inter.png)
