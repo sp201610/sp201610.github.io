@@ -212,6 +212,7 @@ AI的一切操作都透明可视：
 2. **物品关联提醒**：将物品与特定场景关联（如“护照关联出国行程”），在行程前推送证件检查提醒，避免遗忘物品；
 3. **家庭共享台账**：支持多用户共享物品台账，家庭成员可查看物品位置与状态，避免多人重复翻找。
 
+---
 
 ## 9. 产品效果图展示
 
@@ -219,3 +220,15 @@ AI的一切操作都透明可视：
 ![Logo-暗](./images/dark.png)
 
 ![界面](./images/inter.png)
+
+---
+
+## 10. 项目文件、使用说明及展示PPT
+
+[项目文件](https://github.com/sp201610/sp201610.github.io/blob/master/_pages/popo/%E6%B3%A1%E6%B3%A1.zip)
+
+[介绍PPT](https://github.com/sp201610/sp201610.github.io/blob/master/_pages/popo/%E6%B3%A1%E6%B3%A1%E2%80%94%E2%80%94%E6%99%BA%E8%83%BD%E7%89%A9%E5%93%81%E5%BD%92%E7%BA%B3%E4%B8%8E%E6%A3%80%E7%B4%A2%E5%BA%94%E7%94%A8%E4%BB%8B%E7%BB%8D.pptx)
+
+[使用说明](https://github.com/sp201610/sp201610.github.io/blob/master/_pages/popo/%E6%B3%A1%E6%B3%A1%E5%BA%94%E7%94%A8%E6%88%AA%E5%9B%BE%E4%B8%8E%E5%8A%9F%E8%83%BD%E8%AF%B4%E6%98%8E.zip)
+
+---
