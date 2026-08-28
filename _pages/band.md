@@ -77,6 +77,7 @@ author_profile: true
 ---
 
 **项目主页**：[https://github.com/sp201610/band-simulator](https://github.com/sp201610/band-simulator)  
+**预览链接**：[https://3220102086-band-simulator.apps.zaowuyun.com/](https://3220102086-band-simulator.apps.zaowuyun.com/)
 **最后更新**：2026年8月
 
 ---
