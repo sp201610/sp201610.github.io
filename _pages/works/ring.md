@@ -49,11 +49,11 @@ author_profile: true
 Moment Ring 专注指环不仅是一款计时工具，更是一种生活态度的表达。它希望在这个喧嚣的世界里，帮助每一位用户找回属于自己的“专注时刻”，在极简的交互中体验科技带来的温暖治愈。
 
 ## 八、 版面、建模与视频
-![demand](./bm1.png)
+![demand](./Frame 1.png)
 
-![demand](./bm2.png)
+![demand](./Frame 2.png)
 
-![demand](./bm3.png)
+![demand](./Frame 3.png)
 
 ![demand](./jm.jpg)
 
