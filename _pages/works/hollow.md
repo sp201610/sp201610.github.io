@@ -66,4 +66,4 @@ author_profile: true
 
 ![demand](./hollow.png)
 
-[文件](https://github.com/sp201610/sp201610.github.io/blob/master/_pages/works/hollow.png)
+[文件](./hollow.png)
