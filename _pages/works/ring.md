@@ -55,7 +55,7 @@ Moment Ring 专注指环不仅是一款计时工具，更是一种生活态度�
 
 ![demand](./bm3.png)
 
-![demand](./jm.png)
+![demand](./jm.jpg)
 
 [视频](./video.mp4)
 
