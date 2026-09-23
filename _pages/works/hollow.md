@@ -64,6 +64,6 @@ author_profile: true
 
 ## 六、 文件预览与详情
 
-![demand](./images/hollow.png)
+![demand](./hollow.png)
 
 [文件](https://github.com/sp201610/sp201610.github.io/blob/master/_pages/works/hollow.png)
