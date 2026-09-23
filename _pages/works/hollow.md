@@ -1,5 +1,5 @@
 ---
-permalink: /works/xixi
+permalink: /works/hollow
 title: "《空洞骑士》文化构成拆解"
 author_profile: true
 
