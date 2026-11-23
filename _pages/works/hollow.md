@@ -64,6 +64,6 @@ author_profile: true
 
 ## 六、 文件预览与详情
 
-![demand](./hollow.png)
+![demand](./media/hollow.png)
 
-[文件](./hollow.png)
+[文件](./media/hollow.png)
