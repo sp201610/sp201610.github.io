@@ -11,17 +11,14 @@ main:
   - title: "首页"
     url: /about/   
     
-  - title: "项目经历"
-    url: /projects/
-
-  - title: "作品介绍"
+  - title: "游戏拆解"
     url: /works/
+
+  - title: "个人demo"
+    url: /demo/
 
   - title: "游戏经历"
     url: /games/    
 
-  - title: "个人demo"
-    url: /demo/    
-    
-  - title: "Guide"
-    url: /markdown/
+  - title: "项目经历"
+    url: /projects/
