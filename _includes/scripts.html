@@ -1,5 +1,48 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+<style>
+  .mermaid {
+    background: transparent !important;
+    text-align: center;
+    margin: 1.5em 0;
+    overflow-x: auto;
+  }
+  .mermaid svg {
+    background: transparent !important;
+    max-width: 100%;
+    height: auto;
+  }
+  .mermaid rect.background,
+  .mermaid .background {
+    fill: transparent !important;
+  }
+  .mermaid .cluster rect {
+    fill: transparent !important;
+    rx: 8px;
+    ry: 8px;
+    stroke-dasharray: 4 3;
+  }
+  .mermaid .node rect,
+  .mermaid .node polygon,
+  .mermaid .node circle,
+  .mermaid .node ellipse {
+    fill: transparent !important;
+    stroke-width: 1.4px !important;
+  }
+  .mermaid .node rect {
+    rx: 6px;
+    ry: 6px;
+  }
+  .mermaid .edgeLabel,
+  .mermaid .labelBkg {
+    background-color: var(--global-bg-color, #fff) !important;
+  }
+  .mermaid .edgeLabel rect {
+    fill: var(--global-bg-color, #fff) !important;
+    opacity: 1 !important;
+  }
+</style>
+
 <script type="module">
   const mermaidBlocks = document.querySelectorAll('div.language-mermaid, pre > code.language-mermaid');
   if (mermaidBlocks.length > 0) {
@@ -8,19 +51,63 @@
       if (!codeEl) return;
       const container = document.createElement('div');
       container.className = 'mermaid';
-      container.style.textAlign = 'center';
-      container.style.margin = '1.5em 0';
-      container.style.overflowX = 'auto';
       container.textContent = codeEl.textContent;
       const target = block.tagName === 'CODE' ? block.parentElement : block;
       target.replaceWith(container);
     });
 
     import('https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs').then(({ default: mermaid }) => {
+      const rootStyle = getComputedStyle(document.documentElement);
       const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      const textColor = rootStyle.getPropertyValue('--global-text-color').trim() || (isDark ? '#e6edf3' : '#333333');
+      const bgColor = rootStyle.getPropertyValue('--global-bg-color').trim() || (isDark ? '#1e1e1e' : '#ffffff');
+      const accentColor = rootStyle.getPropertyValue('--global-link-color').trim() || '#52adc8';
+      const borderColor = isDark ? 'rgba(255, 255, 255, 0.45)' : 'rgba(51, 51, 51, 0.38)';
+      const clusterBorder = isDark ? 'rgba(255, 255, 255, 0.25)' : 'rgba(51, 51, 51, 0.22)';
+
       mermaid.initialize({
         startOnLoad: false,
-        theme: isDark ? 'dark' : 'default',
+        theme: 'base',
+        flowchart: {
+          curve: 'basis',
+          padding: 16,
+          nodeSpacing: 36,
+          rankSpacing: 46,
+          htmlLabels: true
+        },
+        themeVariables: {
+          background: 'transparent',
+          primaryColor: 'transparent',
+          primaryTextColor: textColor,
+          primaryBorderColor: borderColor,
+          secondaryColor: 'transparent',
+          secondaryTextColor: textColor,
+          secondaryBorderColor: borderColor,
+          tertiaryColor: 'transparent',
+          tertiaryTextColor: textColor,
+          tertiaryBorderColor: borderColor,
+          clusterBkg: 'transparent',
+          clusterBorder: clusterBorder,
+          lineColor: borderColor,
+          textColor: textColor,
+          titleColor: textColor,
+          edgeLabelBackground: bgColor,
+          fontFamily: 'inherit',
+          fontSize: '14px',
+          xyChart: {
+            backgroundColor: 'transparent',
+            titleColor: textColor,
+            xAxisLabelColor: textColor,
+            xAxisTitleColor: textColor,
+            xAxisTickColor: borderColor,
+            xAxisLineColor: borderColor,
+            yAxisLabelColor: textColor,
+            yAxisTitleColor: textColor,
+            yAxisTickColor: borderColor,
+            yAxisLineColor: borderColor,
+            plotColorPalette: accentColor
+          }
+        }
       });
       mermaid.run({ querySelector: '.mermaid' });
     });
