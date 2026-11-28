@@ -1,5 +1,7 @@
 ---
-permalink: /works/ring
+permalink: /projects/ring
+redirect_from:
+  - /works/ring
 title: "Moment Ring 专注指环"
 author_profile: true
 
@@ -49,14 +51,14 @@ author_profile: true
 Moment Ring 专注指环不仅是一款计时工具，更是一种生活态度的表达。它希望在这个喧嚣的世界里，帮助每一位用户找回属于自己的“专注时刻”，在极简的交互中体验科技带来的温暖治愈。
 
 ## 八、 版面、建模与视频
-![demand](./media/Frame 1.png)
+![demand](/_pages/projects/media/Frame 1.png)
 
-![demand](./media/Frame 2.png)
+![demand](/_pages/projects/media/Frame 2.png)
 
-![demand](./media/Frame 3.png)
+![demand](/_pages/projects/media/Frame 3.png)
 
-![demand](./media/jm.jpg)
+![demand](/_pages/projects/media/jm.jpg)
 
-[视频](./video.mp4)
+[视频](/_pages/projects/media/video.mp4)
 
-[展示PPT](./ppt.pptx)
+[展示PPT](/_pages/projects/media/ppt.pptx)

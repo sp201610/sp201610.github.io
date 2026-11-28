@@ -92,7 +92,7 @@ author_profile: true
 
 ## 4. 需求归纳
 
-![demand](./images/demand.png)
+![demand](/_pages/projects/media/demand.png)
 
 ### 功能性需求
 
@@ -116,7 +116,7 @@ author_profile: true
 | 跨平台 | 先发布iOS/Android App，后续考虑Web版查看。 |
 | 可扩展性 | 空间树数据结构应支持未来添加AR指引、多人协作、智能家居联动（如提醒放置在特定位置的信标）。 |
 
-![cognitive](./images/cognitive.png)
+![cognitive](/_pages/projects/media/cognitive.png)
 
 ---
 
@@ -216,19 +216,19 @@ AI的一切操作都透明可视：
 
 ## 9. 产品效果图展示
 
-![Logo](./images/light.png)
-![Logo-暗](./images/dark.png)
+![Logo](/_pages/projects/media/light.png)
+![Logo-暗](/_pages/projects/media/dark.png)
 
-![界面](./images/inter.png)
+![界面](/_pages/projects/media/inter.png)
 
 ---
 
 ## 10. 项目文件、使用说明及展示PPT
 
-[项目文件](https://github.com/sp201610/sp201610.github.io/blob/master/_pages/popo/%E6%B3%A1%E6%B3%A1.zip)
+[项目文件](https://github.com/sp201610/sp201610.github.io/blob/master/_pages/projects/media/%E6%B3%A1%E6%B3%A1.zip)
 
-[介绍PPT](https://github.com/sp201610/sp201610.github.io/blob/master/_pages/popo/%E6%B3%A1%E6%B3%A1%E2%80%94%E2%80%94%E6%99%BA%E8%83%BD%E7%89%A9%E5%93%81%E5%BD%92%E7%BA%B3%E4%B8%8E%E6%A3%80%E7%B4%A2%E5%BA%94%E7%94%A8%E4%BB%8B%E7%BB%8D.pptx)
+[介绍PPT](https://github.com/sp201610/sp201610.github.io/blob/master/_pages/projects/media/%E6%B3%A1%E6%B3%A1%E2%80%94%E2%80%94%E6%99%BA%E8%83%BD%E7%89%A9%E5%93%81%E5%BD%92%E7%BA%B3%E4%B8%8E%E6%A3%80%E7%B4%A2%E5%BA%94%E7%94%A8%E4%BB%8B%E7%BB%8D.pptx)
 
-[使用说明](https://github.com/sp201610/sp201610.github.io/blob/master/_pages/popo/%E6%B3%A1%E6%B3%A1%E5%BA%94%E7%94%A8%E6%88%AA%E5%9B%BE%E4%B8%8E%E5%8A%9F%E8%83%BD%E8%AF%B4%E6%98%8E.zip)
+[使用说明](https://github.com/sp201610/sp201610.github.io/blob/master/_pages/projects/media/%E6%B3%A1%E6%B3%A1%E5%BA%94%E7%94%A8%E6%88%AA%E5%9B%BE%E4%B8%8E%E5%8A%9F%E8%83%BD%E8%AF%B4%E6%98%8E.zip)
 
 ---

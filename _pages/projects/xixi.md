@@ -1,5 +1,7 @@
 ---
-permalink: /works/xixi
+permalink: /projects/xixi
+redirect_from:
+  - /works/xixi
 title: "西溪水陆大会——水主题亲子乐园"
 author_profile: true
 
